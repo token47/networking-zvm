@@ -1,0 +1,5 @@
+networking-zvm (20190118git-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- root <andre.ruiz@canonical.com>  Fri, 18 Jan 2019 17:16:20 +0000

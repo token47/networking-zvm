@@ -1,0 +1,58 @@
+Source: networking-zvm
+Section: unknown
+Priority: optional
+Maintainer: Andre Ruiz <andre.ruiz@canonical.com>
+Build-Depends: debhelper (>= 10), dh-python, python-all, python-setuptools, python3-all, python3-setuptools
+Standards-Version: 4.1.2
+Homepage: http://networking-zvm.readthedocs.io/en/latest/
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+#Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/networking-zvm.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/networking-zvm.git/
+#Testsuite: autopkgtest-pkg-python
+
+Package: python-networking-zvm
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Suggests: python-networking-zvm-doc
+Description: OpenStack Neutron mechanism driver and L2 agent for the z/VM (Python 2)
+ This project provides the OpenStack Neutron mechanism driver and L2 agent for the z/VM
+ of IBM z Systems and IBM LinuxOne machines.
+
+ z/VM provides a highly secure and scalable enterprise cloud infrastructure and an
+ environment for efficiently running multiple diverse critical applications on IBM z
+ Systems and IBM LinuxONE with support for more virtual servers than any other platform
+ in a single footprint. These z/VM virtual servers can run Linux, z/OS and more.
+
+ For more information, please refer to http://www.vm.ibm.com/
+
+Package: python3-networking-zvm
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Suggests: python-networking-zvm-doc
+Description: OpenStack Neutron mechanism driver and L2 agent for the z/VM (Python 3)
+ This project provides the OpenStack Neutron mechanism driver and L2 agent for the z/VM
+ of IBM z Systems and IBM LinuxOne machines.
+
+ z/VM provides a highly secure and scalable enterprise cloud infrastructure and an
+ environment for efficiently running multiple diverse critical applications on IBM z
+ Systems and IBM LinuxONE with support for more virtual servers than any other platform
+ in a single footprint. These z/VM virtual servers can run Linux, z/OS and more.
+
+ For more information, please refer to http://www.vm.ibm.com/
+
+Package: python-networking-zvm-doc
+Architecture: all
+Section: doc
+Depends: ${sphinxdoc:Depends}, ${misc:Depends}
+Description: OpenStack Neutron mechanism driver and L2 agent for the z/VM (common documentation)
+ This project provides the OpenStack Neutron mechanism driver and L2 agent for the z/VM
+ of IBM z Systems and IBM LinuxOne machines.
+
+ z/VM provides a highly secure and scalable enterprise cloud infrastructure and an
+ environment for efficiently running multiple diverse critical applications on IBM z
+ Systems and IBM LinuxONE with support for more virtual servers than any other platform
+ in a single footprint. These z/VM virtual servers can run Linux, z/OS and more.
+
+ For more information, please refer to http://www.vm.ibm.com/
+
